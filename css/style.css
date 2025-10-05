@@ -6,29 +6,32 @@ body {
 
 .judge {
   display: flex;
-}
-.drinks {
-  display: flex;
-  padding: 20px;
-  column-gap: 50px;
-  
-  
-}
-.method {
-  background-color: rgb(83, 69, 69);
-  padding: 20px;
-  margin: auto;
-}
-.scale {
-  background-color: rgb(95, 52, 79);
-  padding: 40px;
-  margin: auto;
+  gap: 30px;
 }
 
-h1 {
-  font-size: 50px;
+.method {
+  background-color: rgb(63, 59, 59);
+  flex: 1;
+  padding: 20px;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 80px;  
+}
+
+.scale {
+  background-color: rgb(61, 32, 51);
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  border-radius: 80px;  
+}
+
+.drinkScore{
+    background-color: rgb(63, 35, 35);
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px; 
+  margin: 0 auto;
 }
 
 .white {
@@ -39,15 +42,21 @@ h1 {
   color: #f8e195;
 }
 
+
 #title {
   color: rgb(241, 162, 133);
   font-size: 40px;
-
 }
 
 #shopTitle {
   color: rgb(196, 196, 193);
   font-family: "Brush Script MT", cursive;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {
@@ -57,27 +66,12 @@ h2 {
 
 h3 {
   font-size: 25px;
-  text-align: center;
 }
 
 p {
   text-align: center;
   font-size: 20px;
   color:rgb(255, 255, 227)
-
-}
-
-#links {
-  text-align: center;
-  color: rgb(250, 192, 116);
-  font-size: 20px;
-}
-
-img {
-  width: 40%;
-  border-radius: 10px;
-  display: block;
-  margin: auto;
 }
 
 ul {
@@ -94,9 +88,31 @@ ol {
   color:rgb(195, 250, 190)
 }
 
+#links {
+  text-align: center;
+  color: rgb(250, 250, 249);
+  font-size: 20px;
+  margin: 5px;
+}
+
+img {
+  width: 40%;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+.gallery-img {
+  height: 250px;
+  width: 100%;
+  object-fit: contain;
+}
+
+
 @media (max-width: 600px) {
   body {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
+
 
