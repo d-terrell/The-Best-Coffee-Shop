@@ -32,7 +32,11 @@ body {
   text-align: center;
   max-width: 400px; 
   margin: 0 auto;
+  height: 230px; 
+  overflow: hidden; /* Prevents content from spilling outside of box/range. */
+  box-sizing: border-box; /* Ensures padding is included in width. */
 }
+
 
 .white {
   color: rgb(196, 196, 193);
